@@ -12,7 +12,7 @@ En el taller anterior se trabajaron conceptos fundamentales como commits, ramas,
 
 El proyecto base es una landing page desarrollada con Astro. Cada equipo deberá trabajar sobre una sección específica del sitio, crear una rama, realizar cambios, subirlos a GitHub y abrir un Pull Request hacia la rama de integración dentro del fork del equipo.
 
-Además, el repositorio incluye workflows de GitHub Actions para validar automáticamente el proyecto y desplegarlo en GitHub Pages cuando los cambios lleguen a la rama `main` del fork del equipo.
+Además, el repositorio incluye workflows de GitHub Actions para validar automáticamente el proyecto y desplegarlo en GitHub Pages cuando los cambios lleguen a la rama `main` del fork del equipo. HOLA COMO TAI :3
 
 ---
 
