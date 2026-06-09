@@ -3,7 +3,33 @@
 ## Taller: Git y GitHub — Ramas, Pull Requests y CI/CD
 
 
-En la primera parte del taller se revisan los conceptos principales: ramas, flujo de trabajo colaborativo, Pull Requests, merge, conflictos y CI/CD: ramas, flujo de trabajo colaborativo, Pull Requests, merge, conflictos y CI/CD. Después, el trabajo se realiza en equipos de tres personas sobre un proyecto Astro ya preparado.sobre un proyecto Astro ya preparado. Cada equipo hará un fork del repositorio base, seleccionará una o dos tareas de la tabla del README, creará ramas de trabajo, realizará cambios, abrirá Pull Requests, validará el CI y finalmente integrará los cambios hasta publicar el sitio con GitHub Pages.
+
+Este material sirve como guía auxiliar para el workshop. Aquí se resumen los conceptos principales que se aplicarán durante la práctica: ramas, flujo de trabajo colaborativo, Pull Requests, merge, conflictos, CI y CD.
+
+Después de revisar los conceptos, el trabajo se realizará en equipos de tres personas sobre un proyecto Astro ya preparado. Cada equipo hará un fork del repositorio base, seleccionará una o dos tareas de la tabla del README, creará ramas de trabajo, realizará cambios, abrirá Pull Requests, validará el CI e integrará los cambios hasta publicar el sitio con GitHub Pages.
+
+---
+
+## Índice
+
+- [A. ¿Qué es una rama en Git?](#a-qué-es-una-rama-en-git)
+- [B. ¿Por qué no trabajar directamente en main?](#b-por-qué-no-trabajar-directamente-en-main)
+- [C. Ramas principales de un proyecto](#c-ramas-principales-de-un-proyecto)
+- [D. Flujo general de ramas](#d-flujo-general-de-ramas)
+- [E. ¿Qué es un fork?](#e-qué-es-un-fork)
+- [F. ¿Qué es un Pull Request?](#f-qué-es-un-pull-request)
+- [G. ¿Dónde se crea el Pull Request?](#g-dónde-se-crea-el-pull-request)
+- [H. ¿Qué es merge?](#h-qué-es-merge)
+- [I. Comandos principales para trabajar con ramas](#i-comandos-principales-para-trabajar-con-ramas)
+- [J. Flujo práctico del workshop](#j-flujo-práctico-del-workshop)
+- [K. ¿Qué es CI?](#k-qué-es-ci)
+- [L. ¿Qué es CD?](#l-qué-es-cd)
+- [M. Diferencia entre CI y CD](#m-diferencia-entre-ci-y-cd)
+- [N. ¿Qué es GitHub Actions?](#n-qué-es-github-actions)
+- [O. Explicación general del CI del proyecto](#o-explicación-general-del-ci-del-proyecto)
+- [P. Explicación general del CD del proyecto](#p-explicación-general-del-cd-del-proyecto)
+- [Q. Relación entre ramas y CI/CD](#q-relación-entre-ramas-y-cicd)
+- [R. Mapa final de activación](#r-mapa-final-de-activación)
 
 ---
 
