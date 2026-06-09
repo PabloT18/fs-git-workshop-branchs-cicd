@@ -8,7 +8,7 @@
 
 ## Descripción
 
-En el taller anterior se trabajaron conceptos fundamentales como commits, ramas, conflictos, `.gitignore`, revert y rebase. En esta nueva práctica se aplicará un flujo más cercano al trabajo real en equipos de desarrollo, usando ramas colaborativas, Pull Requests, revisión de cambios, integración continua y despliegue automático.
+En el taller anterior se trabajaron conceptos fundamentales como commits, ramas, conflictos, `.gitignore`, revert y rebase. En esta nueva práctica se aplicará un flujo más cercano al trabajo real en equipos de desarrollo, usando ramas colaborativas, Pull Requests, revisión de cambios, integración continua y despliegue .
 
 El proyecto base es una landing page desarrollada con Astro. Cada equipo deberá trabajar sobre una sección específica del sitio, crear una rama, realizar cambios, subirlos a GitHub y abrir un Pull Request hacia la rama de integración dentro del fork del equipo.
 
