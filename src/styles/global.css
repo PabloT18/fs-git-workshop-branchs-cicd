@@ -42,6 +42,8 @@
 
 html {
     scroll-behavior: smooth;
+    background: var(--color-bg);
+
 }
 
 body {
@@ -56,6 +58,22 @@ body {
 }
 
 /* Patrón tipo circuito — capa superior */
+body {
+    position: relative;
+    isolation: isolate;
+    min-height: 100vh;
+    font-family: "Arial Narrow", "Roboto Condensed", Arial, Helvetica, sans-serif;
+    background:
+        radial-gradient(circle at 78% 18%, rgba(0, 102, 255, 0.22), transparent 28%),
+        radial-gradient(circle at 90% 32%, rgba(124, 58, 237, 0.2), transparent 26%),
+        linear-gradient(135deg, #020617 0%, #030712 45%, #07111f 100%);
+    background-color: var(--color-bg);
+    background-attachment: fixed;
+    color: var(--color-text);
+    overflow-x: hidden;
+}
+
+/* Patrón tipo circuito — capa inferior */
 body::before {
     content: "";
     position: fixed;
@@ -65,11 +83,10 @@ body::before {
         linear-gradient(rgba(0, 102, 255, 0.08) 1px, transparent 1px),
         linear-gradient(90deg, rgba(0, 102, 255, 0.08) 1px, transparent 1px);
     background-size: 56px 56px;
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), transparent 75%);
-    z-index: -2;
+    opacity: 0.55;
+    z-index: 0;
 }
 
-/* Patrón tipo circuito — capa inferior */
 body::after {
     content: "";
     position: fixed;
@@ -79,7 +96,8 @@ body::after {
         linear-gradient(90deg, transparent 0 92%, rgba(0, 200, 255, 0.07) 92% 93%, transparent 93%),
         linear-gradient(180deg, transparent 0 88%, rgba(124, 58, 237, 0.08) 88% 89%, transparent 89%);
     background-size: 180px 180px;
-    z-index: -1;
+    opacity: 0.6;
+    z-index: 0;
 }
 
 /* ─── Tipografía base ────────────────────────────────── */
@@ -122,10 +140,17 @@ textarea {
 }
 
 /* ─── Layout ─────────────────────────────────────────── */
+main {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+}
 
 .section {
     position: relative;
+    z-index: 1;
     padding: 92px 20px;
+    background-color: transparent;
 }
 
 .section:nth-child(even) {

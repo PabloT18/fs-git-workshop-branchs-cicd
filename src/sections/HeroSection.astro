@@ -72,7 +72,8 @@
                     </p>
                     <p>
                         <span class="t-out"
-                            >Switched to a new branch 'feature/mi-tarea'</span>
+                            >Switched to a new branch 'feature/mi-tarea'</span
+                        >
                     </p>
                     <p>
                         <span class="t-prompt">$</span>
@@ -97,6 +98,14 @@
                 </div>
             </div>
 
+            <!-- Logo ASU Software Libre -->
+            <div class="asu-badge">
+                <img
+                    src={`${import.meta.env.BASE_URL}assets/logo.png`}
+                    alt="ASU Software Libre"
+                    class="asu-logo"
+                />
+            </div>
             <!-- Tarjeta Git -->
             <div class="hero-badge badge-git">
                 <span class="badge-icon">⎇</span>
@@ -216,6 +225,31 @@
         font-weight: 600;
     }
 
+    .asu-badge {
+        /* right: 108px;
+         */
+        position: absolute;
+        bottom: -130px;
+        /* right: 150px; */
+
+        width: 305px;
+        height: 305px;
+
+        display: grid;
+        place-items: center;
+
+        border: 1px solid var(--color-border);
+        border-radius: 10px;
+        box-shadow: var(--shadow-neon-cyan);
+        /* position: absolute; */
+        background: rgba(2, 6, 23, 0.92);
+    }
+
+    .asu-logo {
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
     .meta-dot {
         width: 8px;
         height: 8px;
@@ -239,7 +273,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 10px;
         min-height: 480px;
     }
 
@@ -385,14 +419,14 @@
     }
 
     .badge-git {
-        bottom: 60px;
-        left: -20px;
+        bottom: -150px;
+        left: 10px;
         box-shadow: var(--shadow-neon-purple);
         border-color: rgba(124, 58, 237, 0.45);
     }
 
     .badge-github {
-        bottom: 0;
+        bottom: 120px;
         right: 10px;
         box-shadow: var(--shadow-neon-blue);
         border-color: rgba(0, 102, 255, 0.45);
@@ -459,9 +493,9 @@
             gap: 48px;
         }
 
-        .hero-visual {
+        /* .hero-visual {
             display: none;
-        }
+        } */
     }
 
     @media (max-width: 600px) {
